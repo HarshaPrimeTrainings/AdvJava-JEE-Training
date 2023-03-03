@@ -1,0 +1,24 @@
+<web-app>
+	<servlet>
+		<servlet-name>sd</servlet-name>
+		<servlet-class>HttpServletDemo</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sd</servlet-name>
+		<url-pattern>/demo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>us</servlet-name>
+		<servlet-class>UserServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>us</servlet-name>
+		<url-pattern>/user</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>
